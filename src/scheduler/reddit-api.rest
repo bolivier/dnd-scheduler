@@ -1,0 +1,13 @@
+#  authenticate
+POST https://reddit.com/api/v1/access_token
+Content-Type: text/json
+
+{
+"grant_type": "password",
+"username": "dnd_scheduler",
+"password": "sovietswarves"
+}
+
+
+
+
